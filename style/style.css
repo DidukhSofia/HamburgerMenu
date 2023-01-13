@@ -1,0 +1,57 @@
+hr {
+    width: 50px;
+    border: 3px solid black;
+    background: black;
+    text-align: left;
+    margin: 5px 0px;
+    border-radius: 60px;
+}
+.btn {
+    background: none;
+    border: none;
+    display: none;
+}
+.search-icon {
+    width: 3%;
+    height: 40px;
+}
+
+.items {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px;
+    width: 100%;
+
+}
+li {
+    margin: 0px 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    background: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/abstract-background-beautiful-fantasy-ink-patterns-liquid-paint-fluid-art-ornament-marble-design-your-colorful-136139016.jpg");
+    background-size: 100%;
+    margin: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .btn {
+        display: inline;
+    }
+    .items {
+        display: none;
+    }
+}
